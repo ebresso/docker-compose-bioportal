@@ -3,7 +3,7 @@
 # VERSION 0.1
 
 # Pull base image.
-FROM debian
+FROM debian/eol:jessie
 
 MAINTAINER Vincent Emonet, vincent.emonet@gmail.com
 

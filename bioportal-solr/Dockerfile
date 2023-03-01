@@ -3,7 +3,7 @@
 # VERSION 0.1
 
 # Pull base image.
-FROM debian
+FROM debian:9
 
 EXPOSE 8983:8983
 
