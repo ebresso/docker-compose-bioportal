@@ -20,7 +20,7 @@ fi
 
 if [ "$PORTAL" == "lirmm" ]; then
 	printf "\e[1m (French) LIRMM Bioportal selected\n \e[21m"
-	URL="http://data.bioportal.lirmm.fr"
+	URL="https://data.bioportal.lirmm.fr"
 elif [ "$PORTAL" == "ncbo" ]; then 
 	printf "\e[1m (English) NCBO Portal selected\n \e[21m"
 	URL="http://data.bioontology.org"
